@@ -46,4 +46,5 @@ public class ClienteController {
         responseDTO = service.consultaCompras(cpf);
         return ResponseEntity.ok(responseDTO);
     }
+
 }
