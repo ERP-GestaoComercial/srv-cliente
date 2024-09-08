@@ -1,6 +1,5 @@
 package com.project.srvcliente.domain.dto;
 
-import com.project.srvcliente.model.Endereco;
 import lombok.Data;
 
 @Data
@@ -10,5 +9,12 @@ public class ClienteDTO {
     private String sobreNome;
     private int cpf;
     private int telefone;
-    private Endereco endereco;
+    private String logradouro;
+    private String numero;
+    private String bairro;
+    private String complemento;
+    private int cep;
+    private String cidade;
+    private String estado;
+    private String pais;
 }
